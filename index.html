@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Mie Level Marketing</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-body">
+
+<div class="login-card">
+  <h2>Mie Level Marketing</h2>
+  <p>Masuk untuk melihat produk</p>
+
+  <input type="text" id="username" placeholder="Username" required>
+  <input type="password" id="password" placeholder="Password" required>
+
+  <button onclick="login()">Login</button>
+  <p id="error"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mie Level | Produk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="cekLogin()">
+
+<header>
+  <h1>🔥 MIE LEVEL DIGITAL 🔥</h1>
+  <button class="logout" onclick="logout()">Logout</button>
+</header>
+
+<section class="hero">
+  <h2>Promosi Mie Level Digital Marketing</h2>
+  <p>Harga terjangkau • Pedas sesuai selera • Cocok untuk semua kalangan</p>
+</section>
+
+<section class="produk-container">
+
+  <div class="produk">
+    <img src="https://images.unsplash.com/photo-1604908177522-4020d42b1b8c" alt="Mie Level 1">
+    <h3>Mie Level 1</h3>
+    <p>Pedas ringan</p>
+    <span>Rp 10.000</span>
+    <button>Beli</button>
+  </div>
+
+  <div class="produk">
+    <img src="https://images.unsplash.com/photo-1589308078059-fb6b21f3a2a8" alt="Mie Level 3">
+    <h3>Mie Level 3</h3>
+    <p>Pedas sedang</p>
+    <span>Rp 12.000</span>
+    <button>Beli</button>
+  </div>
+
+  <div class="produk">
+    <img src="https://images.unsplash.com/photo-1612929633738-8fe44f7ec841" alt="Mie Level 5">
+    <h3>Mie Level 5</h3>
+    <p>Pedas ekstrim</p>
+    <span>Rp 15.000</span>
+    <button>Beli</button>
+  </div>
+
+</section>
+
+<footer>
+  <p>© 2025 Mie Level Marketing</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
