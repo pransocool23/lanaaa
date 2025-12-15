@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* LOGIN */
+body.login-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #ff512f, #dd2476);
+}
+
+.login-card {
+  background: white;
+  padding: 30px;
+  width: 320px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 10px;
+  background: #ff5722;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* HEADER */
+header {
+  background: #ff5722;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.logout {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* PRODUK */
+.produk-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+}
+
+.produk {
+  background: white;
+  width: 250px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+}
+
+.produk img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.produk span {
+  color: #e91e63;
+  font-weight: bold;
+}
+
+.produk button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background: #ff5722;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
